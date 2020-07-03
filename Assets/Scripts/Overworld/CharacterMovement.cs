@@ -5,13 +5,14 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     public float speed;
-    public float mouseDeltaThreshold;
 
     private Rigidbody2D characterRigidBody;
     private Vector3 change;
 
     private bool clickMovementActive;
     private Vector3 clickedPosition;
+    //To prevent shaking of the character
+    private float mouseDeltaThreshold = 10f;
 
     // Start is called before the first frame update
     void Start()
