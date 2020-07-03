@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/TobyNijman/2d-rpg.svg?branch=master)](https://travis-ci.org/TobyNijman/2d-rpg)
 # 2d-rpg
 Unity 2D turned based rpg prototype
 
