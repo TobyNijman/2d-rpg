@@ -7,7 +7,6 @@ services:
 - docker
 before_install:
 - export UNITY_LICENSE_CONTENT=`cat Unity_v2019.x.ulf`
-- rm Unity_v2019.x.ulf
 - docker pull $IMAGE_NAME
 jobs:
   include:
