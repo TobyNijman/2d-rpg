@@ -6,41 +6,41 @@ env:
 services:
 - docker
 before_install:
-- openssl aes-256-cbc -K $encrypted_82766e747237_key -iv $encrypted_82766e747237_iv
-  -in ./unity3d.alf -out ./Unity_v2019.x.ulf -d
+- openssl aes-256-cbc -K $encrypted_ce143bb546cb_key -iv $encrypted_ce143bb546cb_iv
+  -in Unity_v2019.x.ulf.enc -out ./Unity_v2019.x.ulf -d
 - export UNITY_LICENSE_CONTENT=`cat Unity_v2019.x.ulf`
 - docker pull $IMAGE_NAME
 jobs:
   include:
   - stage: build
     env: BUILD_TARGET=StandaloneLinux64 IMAGE_NAME=gableroux/unity3d:2019.4.1f1
-    script: "chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh"
+    script: chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh
     addons:
       artifacts:
-        s3_region: "eu-west-1"
+        s3_region: eu-west-1
         paths:
         - "./Builds/"
   - stage: build
     env: BUILD_TARGET=StandaloneOSX IMAGE_NAME=gableroux/unity3d:2019.4.1f1-mac
-    script: "chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh"
+    script: chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh
     addons:
       artifacts:
-        s3_region: "eu-west-1"
+        s3_region: eu-west-1
         paths:
         - "./Builds/"
   - stage: build
     env: BUILD_TARGET=StandaloneWindows64 IMAGE_NAME=gableroux/unity3d:2019.4.1f1-windows
-    script: "chmod +x ./ci/docker_build.sh &&./ci/docker_build.sh"
+    script: chmod +x ./ci/docker_build.sh &&./ci/docker_build.sh
     addons:
       artifacts:
-        s3_region: "eu-west-1"
+        s3_region: eu-west-1
         paths:
         - "./Builds/"
   - stage: build
     env: BUILD_TARGET=WebGL IMAGE_NAME=gableroux/unity3d:2019.4.1f1-webgl
-    script: "chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh"
+    script: chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh
     addons:
       artifacts:
-        s3_region: "eu-west-1"
+        s3_region: eu-west-1
         paths:
         - "./Builds/"
