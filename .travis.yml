@@ -10,22 +10,6 @@ before_install:
 - docker pull $IMAGE_NAME
 jobs:
   include:
-  - stage: test
-    script: "chmod +x ./ci/docker_test.sh && ./ci/docker_test.sh"
-    env: TEST_PLATFORM=editmode IMAGE_NAME=gableroux/unity3d:2019.4.1f1
-    addons:
-      artifacts:
-        s3_region: "eu-west-1"
-        paths:
-        - "$(pwd)/$TEST_PLATFORM-results.xml"
-  - stage: test
-    script: "chmod +x ./ci/docker_test.sh && ./ci/docker_test.sh"
-    env: TEST_PLATFORM=playmode IMAGE_NAME=gableroux/unity3d:2019.4.1f1
-    addons:
-      artifacts:
-        s3_region: "eu-west-1"
-        paths:
-        - "$(pwd)/$TEST_PLATFORM-results.xml"
   - stage: build
     env: BUILD_TARGET=StandaloneLinux64 IMAGE_NAME=gableroux/unity3d:2019.4.1f1
     script: "chmod +x ./ci/docker_build.sh && ./ci/docker_build.sh"
