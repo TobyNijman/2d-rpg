@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5199717756987311446
-    second: rpg_sprite_walk_0
+    second: down_1
   - first:
       213: 6615295489675062555
-    second: rpg_sprite_walk_1
+    second: down_2
   - first:
       213: 5670624613609038714
-    second: rpg_sprite_walk_2
+    second: down_3
   - first:
       213: 1513109097327740569
-    second: rpg_sprite_walk_3
+    second: down_4
   - first:
       213: -4752624300361060684
-    second: rpg_sprite_walk_4
+    second: down_5
   - first:
       213: -1361196385114700345
-    second: rpg_sprite_walk_5
+    second: down_6
   - first:
       213: -2580988045703703335
-    second: rpg_sprite_walk_6
+    second: down_7
   - first:
       213: -8418957137887949243
-    second: rpg_sprite_walk_7
+    second: down_8
   - first:
       213: -4950788224058248150
-    second: rpg_sprite_walk_8
+    second: up_1
   - first:
       213: -8689950064694992531
-    second: rpg_sprite_walk_9
+    second: up_2
   - first:
       213: 4213469869793142158
-    second: rpg_sprite_walk_10
+    second: up_3
   - first:
       213: 6163458646847390814
-    second: rpg_sprite_walk_11
+    second: up_4
   - first:
       213: 1383632117658259588
-    second: rpg_sprite_walk_12
+    second: up_5
   - first:
       213: 3991534958695997967
-    second: rpg_sprite_walk_13
+    second: up_6
   - first:
       213: -8750613769923092246
-    second: rpg_sprite_walk_14
+    second: up_7
   - first:
       213: 5381097669981560663
-    second: rpg_sprite_walk_15
+    second: up_8
   - first:
       213: 5933915095636961588
-    second: rpg_sprite_walk_16
+    second: left_1
   - first:
       213: -2304478355712927884
-    second: rpg_sprite_walk_17
+    second: left_2
   - first:
       213: -4524224290235928258
-    second: rpg_sprite_walk_18
+    second: left_3
   - first:
       213: 6640229747099119794
-    second: rpg_sprite_walk_19
+    second: left_4
   - first:
       213: -733294616730446126
-    second: rpg_sprite_walk_20
+    second: left_5
   - first:
       213: 2861118978561074978
-    second: rpg_sprite_walk_21
+    second: left_6
   - first:
       213: 8483286295808805334
-    second: rpg_sprite_walk_22
+    second: left_7
   - first:
       213: 8509370178103424221
-    second: rpg_sprite_walk_23
+    second: left_8
   - first:
       213: -3108294671364701189
-    second: rpg_sprite_walk_24
+    second: right_1
   - first:
       213: 537939104702803317
-    second: rpg_sprite_walk_25
+    second: right_2
   - first:
       213: -3650750091983189511
-    second: rpg_sprite_walk_26
+    second: right_3
   - first:
       213: -401159956553634609
-    second: rpg_sprite_walk_27
+    second: right_4
   - first:
       213: -5621384414994474280
-    second: rpg_sprite_walk_28
+    second: right_5
   - first:
       213: 657389516582424150
-    second: rpg_sprite_walk_29
+    second: right_6
   - first:
       213: -5230416857911471641
-    second: rpg_sprite_walk_30
+    second: right_7
   - first:
       213: -2721951697271019414
-    second: rpg_sprite_walk_31
+    second: right_8
   - first:
       213: 2979594153585802021
     second: rpg_sprite_walk_32
@@ -267,7 +267,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rpg_sprite_walk_0
+      name: down_1
       rect:
         serializedVersion: 2
         x: 0
@@ -275,7 +275,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,7 +288,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_1
+      name: down_2
       rect:
         serializedVersion: 2
         x: 24
@@ -296,7 +296,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,7 +309,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_2
+      name: down_3
       rect:
         serializedVersion: 2
         x: 48
@@ -317,7 +317,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,7 +330,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_3
+      name: down_4
       rect:
         serializedVersion: 2
         x: 72
@@ -338,7 +338,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,7 +351,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_4
+      name: down_5
       rect:
         serializedVersion: 2
         x: 96
@@ -359,7 +359,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,7 +372,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_5
+      name: down_6
       rect:
         serializedVersion: 2
         x: 120
@@ -380,7 +380,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -393,7 +393,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_6
+      name: down_7
       rect:
         serializedVersion: 2
         x: 144
@@ -401,7 +401,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,7 +414,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_7
+      name: down_8
       rect:
         serializedVersion: 2
         x: 168
@@ -422,7 +422,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,7 +435,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_8
+      name: up_1
       rect:
         serializedVersion: 2
         x: 0
@@ -443,7 +443,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,7 +456,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_9
+      name: up_2
       rect:
         serializedVersion: 2
         x: 24
@@ -464,7 +464,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -477,7 +477,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_10
+      name: up_3
       rect:
         serializedVersion: 2
         x: 48
@@ -485,7 +485,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -498,7 +498,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_11
+      name: up_4
       rect:
         serializedVersion: 2
         x: 72
@@ -506,7 +506,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -519,7 +519,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_12
+      name: up_5
       rect:
         serializedVersion: 2
         x: 96
@@ -527,7 +527,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -540,7 +540,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_13
+      name: up_6
       rect:
         serializedVersion: 2
         x: 120
@@ -548,7 +548,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -561,7 +561,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_14
+      name: up_7
       rect:
         serializedVersion: 2
         x: 144
@@ -569,7 +569,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -582,7 +582,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_15
+      name: up_8
       rect:
         serializedVersion: 2
         x: 168
@@ -590,7 +590,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -603,7 +603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_16
+      name: left_1
       rect:
         serializedVersion: 2
         x: 0
@@ -611,7 +611,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -624,7 +624,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_17
+      name: left_2
       rect:
         serializedVersion: 2
         x: 24
@@ -632,7 +632,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -645,7 +645,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_18
+      name: left_3
       rect:
         serializedVersion: 2
         x: 48
@@ -653,7 +653,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -666,7 +666,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_19
+      name: left_4
       rect:
         serializedVersion: 2
         x: 72
@@ -674,7 +674,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -687,7 +687,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_20
+      name: left_5
       rect:
         serializedVersion: 2
         x: 96
@@ -695,7 +695,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -708,7 +708,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_21
+      name: left_6
       rect:
         serializedVersion: 2
         x: 120
@@ -716,7 +716,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -729,7 +729,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_22
+      name: left_7
       rect:
         serializedVersion: 2
         x: 144
@@ -737,7 +737,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -750,7 +750,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_23
+      name: left_8
       rect:
         serializedVersion: 2
         x: 168
@@ -758,7 +758,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -771,7 +771,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_24
+      name: right_1
       rect:
         serializedVersion: 2
         x: 0
@@ -779,7 +779,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -792,7 +792,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_25
+      name: right_2
       rect:
         serializedVersion: 2
         x: 24
@@ -800,7 +800,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -813,7 +813,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_26
+      name: right_3
       rect:
         serializedVersion: 2
         x: 48
@@ -821,7 +821,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -834,7 +834,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_27
+      name: right_4
       rect:
         serializedVersion: 2
         x: 72
@@ -842,7 +842,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -855,7 +855,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_28
+      name: right_5
       rect:
         serializedVersion: 2
         x: 96
@@ -863,7 +863,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -876,7 +876,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_29
+      name: right_6
       rect:
         serializedVersion: 2
         x: 120
@@ -884,7 +884,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -897,7 +897,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_30
+      name: right_7
       rect:
         serializedVersion: 2
         x: 144
@@ -905,7 +905,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -918,7 +918,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_31
+      name: right_8
       rect:
         serializedVersion: 2
         x: 168
@@ -926,7 +926,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
