@@ -9,6 +9,8 @@ public class CharacterMovement : MonoBehaviour
     private Rigidbody2D characterRigidBody;
     private Vector3 change;
 
+    private Animator animator;
+
     private bool clickMovementActive;
     private Vector3 clickedPosition;
     //To prevent shaking of the character
@@ -18,6 +20,8 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         this.characterRigidBody = GetComponent<Rigidbody2D>();
+        this.animator = GetComponent<Animator>();
+
         this.clickedPosition = Camera.main.WorldToScreenPoint(transform.position);
     }
 
@@ -29,9 +33,22 @@ public class CharacterMovement : MonoBehaviour
         SetChangeBasedOnKeyBoard();
         SetChangeBasedOnMouseOrTouchClick();
 
+        UpdateAnimationAndMove();
+    }
+
+    void UpdateAnimationAndMove()
+    {
         if (change != Vector3.zero)
         {
+            animator.SetFloat("moveX", change.x);
+            animator.SetFloat("moveY", change.y);
+            animator.SetBool("moving", true);
+
             MoveCharacter();
+        }
+        else
+        {
+            animator.SetBool("moving", false);
         }
     }
 
